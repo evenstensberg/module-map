@@ -1,12 +1,15 @@
 {
-  "name": "module-map",
+  "name": "module-map-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A module map that returns all modules in your folder",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "keywords": ["Module", "Map", "ModuleMap", "module", "modulemap"],
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sandboxed-module": "^2.0.4"
+  }
 }
